@@ -1,1 +1,1 @@
-ы
+Решение к задачам по HorizonSideRobot

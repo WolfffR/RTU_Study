@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("abstract")
+include("abstract.jl")
 HSR = HorizonSideRobots
 
 sides = [Ost, Sud, West, Nord]

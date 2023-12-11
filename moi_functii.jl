@@ -1,5 +1,5 @@
 using HorizonSideRobots
-dir = "/Users/egordruk/Desktop/uop/types_of_robot"
+dir = "/Users/egordruk/Desktop/RTU_Study/types_of_robot"
 
 filter_my(c) = !startswith(c, ".")
 # Получаем список файлов в папке

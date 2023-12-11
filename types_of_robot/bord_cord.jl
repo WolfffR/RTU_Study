@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("coordinates")
+include("coordinates.jl")
 mutable struct Border_Coord_Robot <: AbstractRobot
     robot :: Robot
     coords :: Coordinates

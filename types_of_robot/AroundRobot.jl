@@ -61,5 +61,3 @@ function HSR.move!(robot::AbstractCoordsRobot,side::HorizonSide)
         set_coords(robot,x-1, y)
     end
 end
-r = 
-along!(r, Positive)

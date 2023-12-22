@@ -13,7 +13,6 @@ function task5!(robot)
             x+=go_along_shag!(robot,West)-1
             side1 = West
             side2 = Nord
-            x,y = y,x
         elseif !isborder(robot,Nord)
             y+=go_along_shag!(robot,Nord)-1
             side1 = Nord
@@ -26,8 +25,9 @@ function task5!(robot)
     go_along_shag!(robot,West)
     line=gofind(robot,lenght)
     markinnerperimetr(robot,line)
+    println(1)
     to_corner!(robot,Nord,West)
     return_home!(robot,side1,side2,y,x)
     
 end
-task5!(r)
+#task5!(r)

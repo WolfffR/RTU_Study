@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 using HorizonSideRobots
 sides = [Ost, Sud, West, Nord]
 r = Robot("ss/inf_hor_border.sit",animate=true)

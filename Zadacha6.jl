@@ -1,3 +1,3 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 r = Robot(animate = true)

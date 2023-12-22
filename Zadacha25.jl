@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 condition = false
 r = Chess_Robot(Robot("ss/center.sit",animate = true),condition)
 

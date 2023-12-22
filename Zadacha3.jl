@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 r = Robot(animate = true)
 function paint_along!(robot, side::HorizonSide)
     while !isborder(robot, side)

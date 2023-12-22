@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 N = 1
 r = Robot("ss/center.sit", animate=true)
 function task10!(robot)

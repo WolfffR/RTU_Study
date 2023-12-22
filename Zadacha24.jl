@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 r = Robot(animate = true)
 function re_half_distance!(robot, side)
     function re_dva!(robot, side)

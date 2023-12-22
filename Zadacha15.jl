@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 r = Border_Coord_Robot(Robot("ss/pereprava15.sit",animate = true))
 # function HorizonSideRobots.move!(r :: CoordRobot, side :: HorizonSide)
 #     move!(get_base_robot(r),side)

@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 r = Robot("ss/center.sit",animate = true)
 function to_symm_pos!(robot, side)
     if isborder(robot, side)

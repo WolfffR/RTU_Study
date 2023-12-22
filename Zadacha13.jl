@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 r = Chess_Robot(Robot("ss/15x15.sit",animate = true), true)
 function task13!(robot)
     x = go_along_shag!(robot, West)

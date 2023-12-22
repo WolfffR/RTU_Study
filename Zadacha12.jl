@@ -1,5 +1,5 @@
 using HorizonSideRobots
-include("moi_functii")
+include("moi_functii.jl")
 r = Robot("ss/pereprava12.sit",animate = true)
 #r = Robot("ss/test.sit",animate = true)
 #num_horizontal_borders_razriv!(r, 1)

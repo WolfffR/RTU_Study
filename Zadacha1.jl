@@ -10,7 +10,7 @@ function cross!(robot)
             x += 1
         end
         putmarker!(robot)
-        move!(robot, x, inverse(i))
+        move!(robot, inverse(i), x )
     end
     
 end

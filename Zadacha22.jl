@@ -12,7 +12,7 @@ function double_redist!(robot, side)
 
     
 end
-task23!(robot, side) = double_redist!(robot, side)
+task22!(robot, side) = double_redist!(robot, side)
 
 #=
 Как при этом можно было бы сделать так, чтобы в случае невозможности

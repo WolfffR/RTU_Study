@@ -460,7 +460,7 @@ end
 function gofind(robot, lenght)
 
     side = Ost
-    lenght1 = 1
+    lenght1 = 0
     finder = true
     line = 1
 
@@ -471,7 +471,7 @@ function gofind(robot, lenght)
         end
         if !isborder(robot, Sud) && (lenght1 == lenght)
             move!(robot, Sud)
-            lenght1 = 1
+            lenght1 = 0
             side = inverse(side)
             line += 1
         elseif lenght1 !== lenght

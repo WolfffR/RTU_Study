@@ -27,7 +27,7 @@ function task5!(robot)
     markinnerperimetr(robot,line)
     println(1)
     to_corner!(robot,Nord,West)
-    return_home!(robot,side1,side2,y,x)
+    return_home!(robot,y,x,side1,side2)
     
 end
-#task5!(r)
+task5!(r)
